@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/kanuprofile"
+            android:drawableLeft="@drawable/ic_logo"
+
+            android:id="@+id/contactus_contact"
+            android:layout_gravity="center_horizontal" />
+
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" Our Facebook profile"
+        android:textColor="@android:color/holo_blue_dark"
+
+        android:drawableLeft="@drawable/ic_facebook"
+        android:layout_marginTop="60dp"
+        android:id="@+id/contactus_facebook" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="____________________"
+        android:textColor="@android:color/holo_blue_dark"
+
+        android:clickable="true"
+
+        android:layout_marginTop="0dp"
+       />
+</LinearLayout>

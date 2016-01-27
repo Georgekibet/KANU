@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:descendantFocusability="blocksDescendants"
+
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="7">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="2"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            android:focusable="false"
+            android:src="@drawable/ic_logo" />
+
+        <TextView
+            android:id="@+id/farmer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            android:focusable="false"
+              android:gravity="left"
+            android:textColor="@android:color/black"
+            android:text="Farmer A" />
+
+
+       <!-- <TextView
+            android:id="@+id/farmer_kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="right"
+            android:textColor="@android:color/black"
+            android:text="kgs"-->
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="30-12-2015"
+        android:gravity="left"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_marginLeft="40dp"
+        android:visibility="visible"
+        android:typeface="monospace"
+        android:textSize="10dp"
+        android:layout_marginBottom="0dp"/>
+
+
+
+</LinearLayout>
+

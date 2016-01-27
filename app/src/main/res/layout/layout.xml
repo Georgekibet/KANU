@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="15dp"
+    android:orientation="vertical">
+
+    <TextView android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/outletname"
+
+        android:text=" Kinoo Outlet"
+        android:textSize="@dimen/drawer_header_textsize" />
+    <TextView android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+
+        android:text="14 oct 10:00 2015"
+        android:textSize="@dimen/drawer_header_textsize" />
+
+
+    <TextView android:layout_width="match_parent"
+        android:gravity="left"
+        android:layout_height="wrap_content"
+        android:id="@+id/visitType"
+         android:layout_marginTop="30dp"
+        android:text=" VisitType : No Action"
+        android:textSize="@dimen/drawer_header_textsize" />
+
+    <TextView android:layout_width="match_parent"
+        android:gravity="left"
+        android:layout_height="wrap_content"
+        android:id="@+id/visitreason_lebel"
+        android:layout_marginTop="30dp"
+        android:text=" Visit Reason:"
+        android:textSize="@dimen/drawer_header_textsize" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/spinner" />
+
+
+</LinearLayout>

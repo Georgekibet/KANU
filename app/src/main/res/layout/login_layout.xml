@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_dark">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/primary_text_dark"
+        android:textColorHint="@android:color/primary_text_dark"
+        android:background="@android:color/holo_red_dark"
+  android:drawableTop="@drawable/ic_logo_large"
+        android:text=" "
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:typeface="serif"
+
+        android:textSize="@dimen/drawer_header_textsize" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+
+        <AutoCompleteTextView android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_email"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/primary_text_dark"
+            android:textColorHint="@android:color/primary_text_dark"
+            android:minHeight="50dp"
+            android:singleLine="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:textColor="@android:color/primary_text_dark"
+        android:textColorHint="@android:color/primary_text_dark"
+        android:maxLines="1"
+        android:typeface="serif"
+        android:inputType="textPassword"
+        android:minHeight="50dp"
+        android:layout_gravity="center_horizontal" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="right">
+
+
+
+        <TextView
+            android:layout_marginRight="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="50dp"
+            android:layout_gravity="bottom"
+            android:textSize="18dp"
+            android:text="New? Register"
+            android:id="@+id/register" />
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Login "
+android:layout_gravity="end"
+        android:id="@+id/submit_button"
+      android:padding="0dp"
+            android:minHeight="60dp"/>
+
+
+
+    </LinearLayout>
+
+   </LinearLayout>
+
+</LinearLayout>

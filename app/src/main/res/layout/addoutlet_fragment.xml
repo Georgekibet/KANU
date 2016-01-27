@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+   >
+    <!--Outlet info layout-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:id="@+id/outlet_info"
+        >
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Route:"/>
+        <Spinner
+            android:id="@+id/routeSpinner"
+            android:layout_width="wrap_content"
+            android:layout_gravity="right"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint=" Select Route" />
+    </LinearLayout>
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/outletname_editText"
+        android:hint="Outelet Name"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/outletcode_editText"
+        android:hint="Outlet code"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"/>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outlet Type:"/>
+        <Spinner
+            android:id="@+id/outletType_Spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Select Outlet Type" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outlet catagory"/>
+        <Spinner
+            android:id="@+id/otletCatagory_Spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:theme="@android:style/Holo.Light.ButtonBar"
+            android:hint="Select Outlet Catagory" />
+    </LinearLayout>
+<Button
+    android:id="@+id/nextButton"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text=" Next   "
+    android:layout_weight="0.5"/>
+    </LinearLayout>
+
+    <!--Contat info layout-->
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/contact_info"
+    android:visibility="gone">
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Contact Information"
+        android:layout_gravity="center"
+        android:id="@+id/contact_info_devide"
+        android:layout_weight="1"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Firt Name"
+        android:singleLine="true"
+        android:textAllCaps="true"
+        android:ems="10"
+        android:id="@+id/fistname_editText"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Last Name"
+        android:ems="10"
+        android:id="@+id/lastname_edittext"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Phone"
+        android:ems="10"
+        android:id="@+id/phone_editText"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:hint="Physical address"
+        android:id="@+id/physicalAdress"
+        android:layout_weight="1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:hint="Postal address"
+        android:id="@+id/pastalAdress"
+        android:layout_weight="1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:hint="Company name"
+        android:id="@+id/companyName"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Contact classification:"/>
+        <Spinner
+            android:id="@+id/contact_clasification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:hint="Select Outlet Catagory" />
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

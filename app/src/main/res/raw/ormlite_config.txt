@@ -1,0 +1,58 @@
+#
+# generated on 2015/10/11 12:52:23
+#
+# --table-start--
+dataClass=DataBase.User
+tableName=user
+# --table-fields-start--
+# --field-start--
+fieldName=Name
+# --field-end--
+# --field-start--
+fieldName=Username
+# --field-end--
+# --field-start--
+fieldName=password
+# --field-end--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=DataBase.Farmer
+tableName=farmer
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+canBeNull=false
+id=true
+# --field-end--
+# --field-start--
+fieldName=index
+indexName=farmer_index_idx
+# --field-end--
+# --field-start--
+fieldName=firstNAme
+# --field-end--
+# --field-start--
+fieldName=otherNames
+# --field-end--
+# --field-start--
+fieldName=dateCreated
+# --field-end--
+# --field-start--
+fieldName=DOB
+# --field-end--
+# --field-start--
+fieldName=phoneNumber
+# --field-end--
+# --field-start--
+fieldName=idNumer
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

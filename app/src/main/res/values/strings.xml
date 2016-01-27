@@ -1,0 +1,39 @@
+<resources>
+
+    <string name="app_name">KANU</string>
+    <string name="all">All</string>
+    <string name="createnote">Add Member</string>
+    <string name="export_csv">Export as CSV</string>
+    <string name="closedrawer">Close drawer</string>
+    <string name="favorites">Favorites</string>
+    <string name="notes">Notes</string>
+    <string name="opendrawer">Open drawer</string>
+    <string name="photo">Photo</string>
+    <string name="recording">Recording</string>
+    <string name="refresh">Refresh</string>
+    <string name="reminder">Reminder</string>
+    <string name="search">Search</string>
+    <string name="shared">Shared</string>
+    <string name="sheet_item_pressed">Item pressed</string>
+    <string name="snackbar_shared_msg">Gordon Wong shared a note with you.</string>
+    <string name="view">View</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="kanuprofile">HEADQUARTERS CHANIA AVENUE , OFF RING ROAD KILIMANI, BEHIND YAYA CENTER CONTACT: 020 245 7 791, 0729 114 444, 0731 614 444";
+}</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_signup">SignupActivity</string>
+
+</resources>
